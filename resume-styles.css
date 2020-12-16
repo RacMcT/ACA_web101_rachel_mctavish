@@ -1,8 +1,8 @@
 main{
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: auto auto;
-  background-image: linear-gradient(to left, rgb(178, 222, 252) , rgb(91, 184, 247));
+  grid-template-rows: 33% 33% 34%;
+  background-image: linear-gradient(to left, rgb(178, 222, 252) , rgb(22, 156, 245));
 }
 
 header{
@@ -19,7 +19,8 @@ header{
 .headshot{
   grid-row: 1/2;
   grid-column: 1/2;
-  max-width: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 
 .bio{
@@ -37,27 +38,16 @@ header{
   grid-column: 1/2;
 }
 
-.phone{
-  grid-row: 2/3;
-  grid-column: 1/2;
-}
-
-.address{
+.prof-hist{
   grid-row: 3/4;
-  grid-column: 1/2;
+  grid-column: 2/3;
+}
+.educ-hist{
+  grid-row: 2/3;
+  grid-column: 2/3;
 }
 
-.email{
-  grid-row: 4/5;
-  grid-column: 1/2;
-}
-
-.linkedin{
-  grid-row: 5/6;
-  grid-column: 1/2;
-}
-
-.background-color{
-  grid-row: 6/7;
-  grid-column: 1/2;
+.areas-exp{
+  grid-row: 1/2;
+  grid-column: 2/3;
 }
