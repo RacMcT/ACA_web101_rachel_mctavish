@@ -4,7 +4,7 @@ header{
   display: grid;
   grid-template-columns: 60% 40%;
   grid-template-rows: 80% 20%;
-  border-bottom: 2px solid rgb(3, 3, 83);
+  border-bottom: 2px solid rgb(182, 180, 180);
 }
 
 main{
@@ -19,7 +19,7 @@ main{
   grid-column: 2/3;
   background-image: linear-gradient(to bottom, rgb(16, 98, 250), rgb(157, 197, 243));
   padding-top: 20px;
-  border-bottom: 2px solid rgb(3, 3, 83);
+  border-bottom: 2px solid rgb(182, 180, 180);
 }
 
 .headshot{
@@ -27,7 +27,7 @@ main{
   grid-column: 1/2;
   overflow: hidden;
   width: 100%;
-  border-bottom: 2px solid rgb(3, 3, 83);
+  border-bottom: 2px solid rgb(182, 180, 180);
 }
 
 .bio{
@@ -86,7 +86,7 @@ li{
 
 body{
   background-color: rgb(233, 233, 236);
-  outline: solid 1px black;
+  outline: solid 1px rgb(182, 180, 180);
   max-width: 850px;
   margin: auto;
 }
