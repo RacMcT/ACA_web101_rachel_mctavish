@@ -68,7 +68,7 @@ h1{
 
 .img7{
   grid-column: 1/2;
-  grid-row: 11/15;
+  grid-row: 11/16;
   background-image: url("images/roman-X3RDLYTOuqc-unsplash.jpg");
   background-size: cover;
   position: relative;
@@ -76,7 +76,7 @@ h1{
 
 .img8{
   grid-column: 2/3;
-  grid-row: 10/15;
+  grid-row: 10/16;
   background-image: url("images/zoltan-tasi-vHnVtLK8rCc-unsplash.jpg");
   background-size: cover;
   position: relative;
@@ -84,24 +84,68 @@ h1{
 
 .img9{
   grid-column: 3/4;
-  grid-row: 10/15;
+  grid-row: 10/16;
   background-image: url("images/yosh-ginsu-qexZLgMcbPc-unsplash.jpg");
   background-size: cover;
   position: relative;
 }
 
-.overlay1{
+.overlay{
   background-color: rgba(0,0,0,0.5); /* Black background with opacity */
   height: 100%;
   width: 100%;
   cursor: pointer; /* Add a pointer on hover */
   position: absolute;
+  display: flex;
+  transition: .5s ease;
+  opacity: 0;
+}
+
+.img1:hover .overlay {
+  opacity: 1;}
+
+.img2:hover .overlay {
+  opacity: 1;}
+
+.img3:hover .overlay{
+  opacity: 1;
+}
+
+.img4:hover .overlay{
+  opacity: 1;
+}
+
+.img5:hover .overlay{
+  opacity: 1;
+}
+
+.img6:hover .overlay{
+  opacity: 1;
+}
+
+.img7:hover .overlay{
+  opacity: 1;
+}
+
+.img7:hover .overlay{
+  opacity: 1;
+}
+
+.img8:hover .overlay{
+  opacity: 1;
+}
+
+.img9:hover .overlay{
+  opacity: 1;
 }
 
 p{
   color: white;
   text-align: center;
   padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 
