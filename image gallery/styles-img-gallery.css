@@ -1,7 +1,15 @@
+body{
+  background-image: radial-gradient(rgb(200, 185, 240), rgb(101, 101, 248));
+}
+h1{
+  text-align: center;
+  background-color: rgb(248, 166, 179);
+}
+
 .gallery-imgs{
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: repeat(20, 100px);
+  grid-template-rows: repeat(9, 100px);
 }
 
 .gallery-imgs img{
@@ -12,6 +20,9 @@
 .img1{
   grid-column: 1/2;
   grid-row: 1/6;
+  background-image: url("images/aaron-burden-5fedGbqYwvM-unsplash.jpg");
+  background-size: cover;
+  position: relative;
 }
 
 .img2{
@@ -31,53 +42,39 @@
 
 .img5{
   grid-column: 2/3;
-  grid-row: 5/10;
+  grid-row: 4/10;
 }
 
 .img6{
   grid-column: 3/4;
-  grid-row: 6/10;
+  grid-row: 6/8;
 }
 
 .img7{
-  grid-column: 1/2;
-  grid-row: 9/15;
+  grid-column: 4/5;
+  grid-row: 1/5
 }
 
 .img8{
   grid-column: 4/5;
-  grid-row: 5/15;
+  grid-row: 5/8;
 }
 
 .overlay1{
-  position: fixed; /* Sit on top of the page content */
-  display: none; /* Hidden by default */
-  width: 100%; /* Full width (cover the whole page) */
-  height: 100%; /* Full height (cover the whole page) */
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
   background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  height: 100%;
+  width: 100%;
   cursor: pointer; /* Add a pointer on hover */
+  position: absolute;
 }
 
 .txt1{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  font-size: 50px;
   color: white;
-  transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  z-index: 3;
-}
 }
 
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
+
+  @media only screen 
+  and (max-device-width: 768px)
   {
     .gallery-imgs {
       display: flex;
