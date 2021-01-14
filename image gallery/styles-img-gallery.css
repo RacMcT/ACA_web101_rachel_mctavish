@@ -1,5 +1,6 @@
 body{
   background-image: radial-gradient(rgb(200, 185, 240), rgb(101, 101, 248));
+  font-family: 'Ubuntu', sans-serif;
 }
 h1{
   text-align: center;
@@ -102,41 +103,46 @@ h1{
 }
 
 .img1:hover .overlay {
-  opacity: 1;}
+  opacity: 1;
+  animation: pulse 2s 1;}
 
 .img2:hover .overlay {
-  opacity: 1;}
+  opacity: 1;
+  animation: pulse 2s 1;}
 
 .img3:hover .overlay{
   opacity: 1;
+  animation: pulse 2s 1;
 }
 
 .img4:hover .overlay{
   opacity: 1;
+  animation: pulse 2s 1;
 }
 
 .img5:hover .overlay{
   opacity: 1;
+  animation: pulse 2s 1;
 }
 
 .img6:hover .overlay{
   opacity: 1;
+  animation: pulse 2s 1;
 }
 
 .img7:hover .overlay{
   opacity: 1;
-}
-
-.img7:hover .overlay{
-  opacity: 1;
+  animation: pulse 2s 1;
 }
 
 .img8:hover .overlay{
   opacity: 1;
+  animation: pulse 2s 1;
 }
 
 .img9:hover .overlay{
   opacity: 1;
+  animation: pulse 2s 1;
 }
 
 p{
