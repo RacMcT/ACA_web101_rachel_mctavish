@@ -82,6 +82,9 @@ li{
   font-size: 25px;
 }
 
+.telephone{
+cursor: pointer;
+}
 
 body{
   background-color: rgb(233, 233, 236);
@@ -90,19 +93,7 @@ body{
   margin: auto;
 }
 
-
-
-#phoneNumber {
-  opacity: 1;
-  -webkit-transition: opacity 0.3s ease-in-out;
-  -moz-transition: opacity 0.3s ease-in-out;
-  -ms-transition: opacity 0.3s ease-in-out;
-  -o-transition: opacity 0.3s ease-in-out;
-  transition: opacity 0.3 ease-in-out;
-}
-#phoneNumber.fade {
-  opacity:0;
-}
+.headshot:hover {opacity: 0.5}
 
 @media (max-width: 736px){
   h1{font-size: 45px;}
