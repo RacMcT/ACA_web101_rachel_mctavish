@@ -82,12 +82,18 @@ li{
   font-size: 25px;
 }
 
+.telephone{
+cursor: pointer;
+}
+
 body{
   background-color: rgb(233, 233, 236);
   outline: solid 1px rgb(182, 180, 180);
   max-width: 850px;
   margin: auto;
 }
+
+.headshot:hover {opacity: 0.5}
 
 @media (max-width: 736px){
   h1{font-size: 45px;}
@@ -105,3 +111,5 @@ body{
     }
 
   }
+
+  

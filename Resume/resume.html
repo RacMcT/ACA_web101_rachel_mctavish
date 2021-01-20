@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <link rel="stylesheet" href="resume-styles.css".css>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="resume-script.js"></script>
 </head>
 <body>
   <header>
     <section class="headshot">
-      <img src="headshot-with-gator.jpg" alt="professional headshot and aligator"
-      width="100%"">
+      <img src="headshot-with-gator.jpg" alt="professional headshot and aligator" class="image" id="image"
+      width="100%" onclick="myFunction2()">
     </section>
     <section class="name"> 
       <h1>Morgan Maxwell</h1>
@@ -25,8 +27,10 @@
   <main>
     <section class="contact">
       <h2>Contact Info</h2>
-      <h3>Telephone</h3>
-        <p>+1 (123) 456-7890</p>
+      <div>
+        <h3 id="telephone" onclick="myFunction()">Telephone</h3>
+        <p id="phoneNumber">+1 (123) 456-7890</p> 
+      </div>
     <br>
       <h3>Address</h3>
         <p>3736 N Humboldt Blvd</p>
@@ -41,7 +45,7 @@
   
     <section class="areas-exp">
       <h2>Areas of Expertise</h2>
-      <p>Sed congue suscipit dolor, vehicula feugiat odio accumsan ut. Vestibulum sed viverra nisl. 
+      <p id="areaExpTxt" onclick="myFunction3()">Sed congue suscipit dolor, vehicula feugiat odio accumsan ut. Vestibulum sed viverra nisl. 
         Vivamus sagittis massa id dolor aliquet rutrum. Nunc vitae consequat purus.</p>
     </section> 
 
@@ -69,5 +73,6 @@
         <li>Lorem ipsum dolor sit amet</li>
 
     </section> 
+    <script src="resume-script.js"></script>
   </main>
 </body>
